@@ -1,0 +1,548 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css" integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="assets/style.css">
+    <title>HTML Layout</title>
+</head>
+<body>
+    <!--header-checking-description section starts  -->
+    <section id="header-checking-description">
+        <!-- header section begins -->
+    <header>
+        <div class="phone-email-socials">
+            <div class="phone-email" style="float: left;margin-right: 20px;">
+                <span>Phone: +1(234)567-890</span>
+                <span style="padding-left: 15px;">Email: contact@inspiro-media.com</span>
+            </div>
+            <div class="socials">
+                <i class="fa-brands fa-facebook-f"></i>
+                <i class="fa-brands fa-twitter"></i>
+                <i class="fa-brands fa-pinterest"></i>
+                <i class="fa-brands fa-facebook-f"></i>
+                <i class="fa-brands fa-twitter"></i>
+                <i class="fa-brands fa-pinterest"></i>
+            </div>
+        </div>
+        <nav>
+            <div class="logo">
+                <a href="https://inspirothemes.com/polo/home-hotel-v2.html" style="color: black; text-decoration: none;"><h2>POLO</h2></a>
+            </div>
+            <div class="nav-links">
+                <ul>
+                    <li><a href="https://inspirothemes.com/polo/home-hotel-v2.htm" style="color: black; text-decoration: none;" >Home</a></li>
+                    <li>
+                        Layout
+                        <ul>
+                            <li><a href="">Topbar</a></li>
+                            <li><a href="">Header</a></li>
+                            <li><a href="">Menu</a></li>
+                            <li><a href="">Sidebars</a></li>
+                            <li><a href="">Footers</a></li>
+                        </ul>
+                    </li>
+                    <li>Features
+                        <ul>
+                            <li><a href="">Topbar</a></li>
+                            <li><a href="">Header</a></li>
+                            <li><a href="">Menu</a></li>
+                            <li><a href="">Sidebars</a></li>
+                            <li><a href="">Footers</a></li>
+                        </ul>
+                    </li>
+                    <li>Elements
+                        <ul>
+                            <li><a href="">Topbar</a></li>
+                            <li><a href="">Header</a></li>
+                            <li><a href="">Menu</a></li>
+                            <li><a href="">Sidebars</a></li>
+                            <li><a href="">Footers</a></li>
+                        </ul>
+                    </li>
+                    <li>Pages
+                        <ul>
+                            <li><a href="">Topbar</a></li>
+                            <li><a href="">Header</a></li>
+                            <li><a href="">Menu</a></li>
+                            <li><a href="">Sidebars</a></li>
+                            <li><a href="">Footers</a></li>
+                        </ul>
+                    </li>
+                    <li>Portfolio
+                        <ul>
+                            <li><a href="">Topbar</a></li>
+                            <li><a href="">Header</a></li>
+                            <li><a href="">Menu</a></li>
+                            <li><a href="">Sidebars</a></li>
+                            <li><a href="">Footers</a></li>
+                        </ul>
+                    </li>
+                    <li>Blog
+                        <ul>
+                            <li><a href="">Topbar</a></li>
+                            <li><a href="">Header</a></li>
+                            <li><a href="">Menu</a></li>
+                            <li><a href="">Sidebars</a></li>
+                            <li><a href="">Footers</a></li>
+                        </ul>
+                    </li>
+                    <li>Shop
+                            <ul>
+                                <li><a href="">Topbar</a></li>
+                                <li><a href="">Header</a></li>
+                                <li><a href="">Menu</a></li>
+                                <li><a href="">Sidebars</a></li>
+                                <li><a href="">Footers</a></li>
+                            </ul>
+                    </li>
+                    <li>
+                        <a href=""><i class="fa-solid fa-magnifying-glass"></i></a>
+                    </li>
+                    <li>
+                        <i class="fa-solid fa-language"></i>
+                        <ul>
+                            <li><a href="">French</a></li>
+                            <li><a href="">Spanish</a></li>
+                            <li><a href="">English</a></li>
+                        </ul>
+                    </li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+    <!-- header section ends -->
+
+    <!-- checking-description section starts -->
+        <section id="checking-description">
+            <div class="desc">
+                <h2 style="margin-bottom: 0;">5 star Hotel</h2>
+                <h1 style="font-size: 42px; margin-top: 0;">Wonderful Feelings</h1>
+            </div>
+            <div class="checking">
+                <form method="get">
+                    <div class="checking-in">
+                        <label for="check-in-datetime">Check in</label> <br>
+                        <input type="date" name="check-in-datetime" id="check-in-datetime">
+                    </div>
+                    <div class="checking-out">
+                        <label for="check-out-datetime">Check out</label> <br>
+                        <input type="date" name="check-out-datetime" id="check-out-datetime">
+                    </div>
+                    <div class="adults">
+                        <label for="adult-number">Adults</label> <br>
+                        <input type="number" name="adult-number" min="1" max="10" placeholder="0" id="adult-number">
+                    </div>
+                    <div class="children">
+                        <label for="children-number">Children</label> <br>
+                        <input type="number" name="children-number" min="1" max="10" placeholder="0" id="children-number">
+                    </div>
+                    <div class="room-type">
+                        <label for="rooms">Room Type</label><br>
+                        <select name="rooms" id="rooms">
+                            <option value="selection">Select Rooms</option>
+                            <option value="single">Single</option>
+                            <option value="double">Double</option>
+                            <option value="king">King Double</option>
+                        </select>
+                    </div>
+                    <div class="button">
+                        <button type="submit" style="width: 170px; height:38px; border-radius: 8px; border:white ">Check Availability</button>
+                    </div>
+                </form>
+            </div>
+        </section>
+    <!--checking-description section ends  -->
+    </section>
+    <!--header-checking-description section ends  -->
+
+    <!-- information section starts -->
+    <section id="information">
+        <div class="welcome-msg"><h2 style="text-align: center; font-size:45px">Welcome to Hotel Polo</h2></div>
+        <hr style="color: rgb(189, 171, 171);">
+        <div class="hotel-desc">
+            <p style="color: rgb(189, 171, 171); text-align: center;">Hotel “POLO” is a peaceful and well-equipped holiday hotel. Thanks to the favourable situation close to the beach, the woods and the village centre, it is an ideal hotel, where you will certainly feel at home. to the beach, the woods and the </p>
+        </div>
+        <hr style="color: rgb(189, 171, 171);">
+        <div class="service-info">
+            <ul>
+                <li style="width: 20%;">
+                    <span> <i class="fa-solid fa-mug-hot"></i>
+                        <h2 style="display: inline;">Restaurant</h2>
+                        <p>There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form</p>
+                    </span>
+                </li>
+                <li style="width: 20%;">
+                    <span>
+                        <h2 style="display: inline;">Revolving Cocktail bar</h2>
+                        <p>There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form</p>
+                    </span>
+                </li>
+                <li style="width: 20%;">
+                    <span> <i class="fa-solid fa-plane"></i>
+                        <h2 style="display: inline;">Free airport pick up service</h2>
+                        <p>There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form</p>
+                    </span>
+                </li>
+                <li style="width: 20%;">
+                    <span> <i class="fa-solid fa-star"></i>
+                        <h2 style="display: inline;">5/5 Rating</h2>
+                        <p>There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form</p>
+                    </span>
+                </li>
+            </ul>
+        </div>
+
+    </section>
+    <!-- information section ends -->
+
+    <!-- hotel-rooms sectin starts -->
+    <section id="hotel-rooms">
+        <div class="title">
+            <h2 style="text-align: center; font-size:43px;">Hotel Rooms</h2>
+        </div>
+        <hr style="color: rgb(189, 171, 171);">
+        <div class="rooms-desc">
+            <p style="text-align: center; color:rgb(189, 171, 171) ">Hotel “POLO” is a peaceful and well-equipped holiday hotel. Thanks to the favourable situation close to the beach, the woods and the village centre, it is an ideal hotel, where you will certainly feel at home.</p>
+        </div>
+
+        <div class="rooms">
+            <ul>
+                <li style="width: 20%;">
+                    <div class="img">
+                        <img src="https://inspirothemes.com/polo/homepages/hotel/images/rooms/4.jpg" width="250px" alt="room image">
+                    </div>
+                    <div class="roominfo">
+                        <span>Deluxe Room</span>
+                        <p>Vestibulum id ligula porta felis euismod semper. Aenean eu leo quam. Pellentesque ornare sem lacinia quam venenatis vestibulum.</p>
+                    </div>
+                    <div class="button">
+                        <button type="button" style="width: 80px;height:40px; border-radius:8px;">Book</button>
+                    </div>
+                </li>
+                <li style="width: 20%;">
+                    <div class="img">
+                    <img src="https://inspirothemes.com/polo/homepages/hotel/images/rooms/4.jpg" width="250px" alt="room image">
+                    </div>
+                    <div class="roominfo">
+                    <span>Deluxe Room</span>
+                    <p>Vestibulum id ligula porta felis euismod semper. Aenean eu leo quam. Pellentesque ornare sem lacinia quam venenatis vestibulum.</p>
+                    <button type="button" style="width: 80px;height:40px; border-radius:8px;">Book</button>
+                    </div>
+                </li>
+                <li style="width: 20%;">
+                    <div class="img">
+                    <img src="https://inspirothemes.com/polo/homepages/hotel/images/rooms/4.jpg" width="250px" alt="room image">
+                    </div>
+                    <div class="roominfo">
+                    <span>Deluxe Room</span>
+                    <p>Vestibulum id ligula porta felis euismod semper. Aenean eu leo quam. Pellentesque ornare sem lacinia quam venenatis vestibulum.</p>
+                    <button type="button" style="width: 80px;height:40px; border-radius:8px;">Book</button>
+                    </div>
+                </li>
+                <li style="width: 20%;">
+                    <div class="img">
+                    <img src="https://inspirothemes.com/polo/homepages/hotel/images/rooms/4.jpg" width="250px" alt="room image">
+                    </div>
+                    <div class="roominfo">
+                    <span>Deluxe Room</span>
+                    <p>Vestibulum id ligula porta felis euismod semper. Aenean eu leo quam. Pellentesque ornare sem lacinia quam venenatis vestibulum.</p>
+                    <button type="button" style="width: 80px;height:40px; border-radius:8px;">Book</button>
+                    </div>
+                </li>
+                <li style="width: 20%;">
+                    <div class="img">
+                    <img src="https://inspirothemes.com/polo/homepages/hotel/images/rooms/4.jpg" width="250px" alt="room image">
+                    </div>
+                    <div class="roominfo">
+                    <span>Deluxe Room</span>
+                    <p>Vestibulum id ligula porta felis euismod semper. Aenean eu leo quam. Pellentesque ornare sem lacinia quam venenatis vestibulum.</p>
+                    <button type="button" style="width: 80px;height:40px; border-radius:8px;">Book</button>
+                    </div>
+                </li>
+                <li style="width: 20%;">
+                    <div class="img">
+                    <img src="https://inspirothemes.com/polo/homepages/hotel/images/rooms/4.jpg" width="250px" alt="room image">
+                    </div>
+                    <div class="roominfo">
+                    <span>Deluxe Room</span>
+                    <p>Vestibulum id ligula porta felis euismod semper. Aenean eu leo quam. Pellentesque ornare sem lacinia quam venenatis vestibulum.</p>
+                    <button type="button" style="width: 80px;height:40px; border-radius:8px;">Book</button>
+                    </div>
+                </li>
+                <li style="width: 20%;">
+                    <div class="img">
+                    <img src="https://inspirothemes.com/polo/homepages/hotel/images/rooms/4.jpg" width="250px" alt="room image">
+                    </div>
+                    <div class="roominfo">
+                    <span>Deluxe Room</span>
+                    <p>Vestibulum id ligula porta felis euismod semper. Aenean eu leo quam. Pellentesque ornare sem lacinia quam venenatis vestibulum.</p>
+                    <button type="button" style="width: 80px;height:40px; border-radius:8px;">Book</button>
+                    </div>
+                </li>
+                <li style="width: 20%;">
+                    <div class="img">
+                    <img src="https://inspirothemes.com/polo/homepages/hotel/images/rooms/4.jpg" width="250px" alt="room image">
+                    </div>
+                    <div class="roominfo">
+                    <span>Deluxe Room</span>
+                    <p>Vestibulum id ligula porta felis euismod semper. Aenean eu leo quam. Pellentesque ornare sem lacinia quam venenatis vestibulum.</p>
+                    <button type="button" style="width: 80px;height:40px; border-radius:8px;">Book</button>
+                    </div>
+                </li>
+            </ul>
+        </div>
+    </section>
+    <!-- hotel-rooms sectin ends -->
+    <hr>
+
+    <!-- events-appointments section starts -->
+    <section id="events-appointments">
+        <div class="events">
+            <div class="title">
+                <h2>Events</h2>
+                <span>Ready to purchase solo template?</span>
+            </div>
+            <div class="days">
+                <ul>
+                    <li>
+                        <span>Day 01</span><br>
+                        <span>17.10.2015</span>
+                        <ul>
+                            <li>
+                                <i class="fa-solid fa-clock"></i>
+                                <span>09:00 - 10:45</span>
+                                <span>Juna Doe</span>
+                                <p>At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum deleniti atque corrupti quos dolores et quas molestias excepturi</p>
+
+                            </li>
+                            <li>
+                                <i class="fa-solid fa-clock"></i>
+                                <span>09:00 - 10:45</span>
+                                <span>Juna Doe</span>
+                                <p>At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum deleniti atque corrupti quos dolores et quas molestias excepturi</p>
+                            </li>
+                            <li>
+                                <i class="fa-solid fa-clock"></i>
+                                <span>09:00 - 10:45</span>
+                                <span>Juna Doe</span>
+                                <p>At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum deleniti atque corrupti quos dolores et quas molestias excepturi</p>
+                            </li>
+                        </ul>
+                    </li>
+                    <li>
+                        <span>Day 01</span><br>
+                        <span>17.10.2015</span>
+                        <ul>
+                            <li>
+                                <i class="fa-solid fa-clock"></i>
+                                <span>09:00 - 10:45</span>
+                                <span>Juna Doe</span>
+                                <p>At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum deleniti atque corrupti quos dolores et quas molestias excepturi</p>
+
+                            </li>
+                            <li>
+                                <i class="fa-solid fa-clock"></i>
+                                <span>09:00 - 10:45</span>
+                                <span>Juna Doe</span>
+                                <p>At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum deleniti atque corrupti quos dolores et quas molestias excepturi</p>
+                            </li>
+                            <li>
+                                <i class="fa-solid fa-clock"></i>
+                                <span>09:00 - 10:45</span>
+                                <span>Juna Doe</span>
+                                <p>At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum deleniti atque corrupti quos dolores et quas molestias excepturi</p>
+                            </li>
+                        </ul>
+                    </li>
+                    <li>
+                        <span>Day 01</span><br>
+                        <span>17.10.2015</span>
+                        <ul>
+                            <li>
+                                <i class="fa-solid fa-clock"></i>
+                                <span>09:00 - 10:45</span>
+                                <span>Juna Doe</span>
+                                <p>At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum deleniti atque corrupti quos dolores et quas molestias excepturi</p>
+
+                            </li>
+                            <li>
+                                <i class="fa-solid fa-clock"></i>
+                                <span>09:00 - 10:45</span>
+                                <span>Juna Doe</span>
+                                <p>At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum deleniti atque corrupti quos dolores et quas molestias excepturi</p>
+                            </li>
+                            <li>
+                                <i class="fa-solid fa-clock"></i>
+                                <span>09:00 - 10:45</span>
+                                <span>Juna Doe</span>
+                                <p>At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum deleniti atque corrupti quos dolores et quas molestias excepturi</p>
+                            </li>
+                        </ul>
+                    </li>
+                    <li>
+                        <span>Day 01</span><br>
+                        <span>17.10.2015</span>
+                        <ul>
+                            <li>
+                                <i class="fa-solid fa-clock"></i>
+                                <span>09:00 - 10:45</span>
+                                <span>Juna Doe</span>
+                                <p>At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum deleniti atque corrupti quos dolores et quas molestias excepturi</p>
+
+                            </li>
+                            <li>
+                                <i class="fa-solid fa-clock"></i>
+                                <span>09:00 - 10:45</span>
+                                <span>Juna Doe</span>
+                                <p>At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum deleniti atque corrupti quos dolores et quas molestias excepturi</p>
+                            </li>
+                            <li>
+                                <i class="fa-solid fa-clock"></i>
+                                <span>09:00 - 10:45</span>
+                                <span>Juna Doe</span>
+                                <p>At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum deleniti atque corrupti quos dolores et quas molestias excepturi</p>
+                            </li>
+                        </ul>
+                    </li>
+                </ul>
+            </div>
+        </div>
+        <div class="appointments">
+            <div class="title">
+                <h2>Appointment</h2>
+            </div>
+            <div class="form">
+                <form method="get">
+                    <span>Register for this next event</span>
+                    <div class="name">
+                        <label for="egister-name">Name</label>
+                        <input type="text" name="register-name" minlength="3" required placeholder="Enter your Name" id="register-name">
+                    </div><br>
+                    <div class="email">
+                        <label for="register-email">Email</label>
+                        <input type="email" name="register-email" placeholder="Enter your email" id="register-email">
+                    </div><br>
+                    <div class="phone">
+                        <label for="register-phone">Phone Number</label>
+                        <input type="tel" name="register-phone" placeholder="Enter your Phone Number" id="register-phone">
+                    </div><br>
+                    <div class="message">
+                        <label for="">Message</label>
+                        <textarea name="register-message" id="register-message" cols="30" rows="10" placeholder="Enter your message here"></textarea>
+                    </div><br>
+                    <div class="button">
+                        <button type="button" style="width: 130px;height: 40px; border-radius: 8px;">Send Message</button>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </section>
+    <!-- events-appointments section ends -->
+
+    <!-- map section starts -->
+    <section id="map">
+        <div class="iframe">
+            <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d97224.53177751029!2d49.8466816!3d40.40294399999999!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1sen!2s!4v1657783461909!5m2!1sen!2s" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+        </div>
+    </section>
+    <!-- map section ends -->
+
+    <!-- footer section starts -->
+    <footer>
+        <div class="polo-purchase">
+            <div class="title">
+                <h2>Polo HTML5 Template</h2>
+            </div>
+            <div class="address-copyright">
+                <address>
+                    Built with love in Fort Worth, Texas, USA
+                </address>
+                <span>
+                    All rights reserved. Copyright © 2019. INSPIRO.
+                </span>
+            </div><br><br>
+            <div class="button">
+                <button type="button" style="width: 130px;height: 40px;">Purchase Now</button>
+            </div>
+        </div>
+
+        <div class="links">
+            <ul>
+                <li>
+                    <span>Discover</span>
+                    <ul>
+                        <li>
+                            <a href="">Features</a>
+                        </li>
+                        <li>
+                            <a href="">Layouts</a>
+                        </li>
+                        <li>
+                            <a href="">Corporate</a>
+                        </li>
+                        <li>
+                            <a href="">Updates</a>
+                        </li>
+                    </ul>
+                </li>
+                <li>
+                    <span>Features</span>
+                    <ul>
+                        <li>
+                            <a href="">Features</a>
+                        </li>
+                        <li>
+                            <a href="">Layouts</a>
+                        </li>
+                        <li>
+                            <a href="">Corporate</a>
+                        </li>
+                        <li>
+                            <a href="">Updates</a>
+                        </li>
+                    </ul>
+                </li>
+                <li>
+                    <span>Pages</span>
+                    <ul>
+                        <li>
+                            <a href="">Features</a>
+                        </li>
+                        <li>
+                            <a href="">Layouts</a>
+                        </li>
+                        <li>
+                            <a href="">Corporate</a>
+                        </li>
+                        <li>
+                            <a href="">Updates</a>
+                        </li>
+                    </ul>
+                </li>
+                <li>
+                    <span>Support</span>
+                    <ul>
+                        <li>
+                            <a href="">Features</a>
+                        </li>
+                        <li>
+                            <a href="">Layouts</a>
+                        </li>
+                        <li>
+                            <a href="">Corporate</a>
+                        </li>
+                        <li>
+                            <a href="">Updates</a>
+                        </li>
+                    </ul>
+                </li>
+            </ul>
+        </div>
+    </footer>
+    <!-- footer section ends -->
+    
+</body>
+</html>

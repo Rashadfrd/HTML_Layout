@@ -1,0 +1,31 @@
+#header-checking-description{
+    background-image: url(https://images.unsplash.com/photo-1507525428034-b723cf961d3e?ixlib=rb-1.2.1&w=1080&fit=max&q=80&fm=jpg&crop=entropy&cs=tinysrgb);
+    background-size: contain;
+}
+#header-checking-description #checking-description .checking .button{
+    padding-top: 20px;
+}
+#header-checking-description #checking-description .checking{
+    width: 400px;
+    height: 300px;
+    border: 5px solid rgb(189, 171, 171);
+}
+#information{
+    padding-top: 30px;
+}
+#information .hotel-desc{
+    padding: 3px 90px;
+}
+#hotel-rooms{
+    padding-top: 30px;
+    margin-bottom: 50px;
+}
+#hotel-rooms .rooms-desc{
+    padding: 3px 90px 15px 90px;
+}
+#map{
+    padding-top: 50px;
+}
+#map .iframe iframe{
+    width: 100vw;
+}
